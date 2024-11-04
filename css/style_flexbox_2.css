@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: white;
+
+}
+
+main {
+    display: flex;
+    flex-grow: 1;
+}
+
+section {
+    flex-grow: 1;
+    background-color: blue;
+
+}
+
+header {
+    text-align: center;
+    background-color: violet;
+
+
+}
+
+footer {
+    text-align: center;
+    background-color: greenyellow;
+    color: black;
+}
+
+
+
+nav {
+    order: -1;
+    background-color: red;
+
+}
+
+section,
+nav,
+aside,
+footer,
+header {
+    padding: 0.2rem;
+    border: 0.2rem, solid, white;
+    border-radius: 1rem;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
